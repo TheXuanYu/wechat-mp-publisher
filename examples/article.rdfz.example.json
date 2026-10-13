@@ -1,5 +1,5 @@
 {
-  "_note": "结构示例：栏目=跑鞋篇，章节/子标题/开篇字段严格照 references/outline_running.json。正文文案是占位示例，正式稿要写满约 2000 字。",
+  "_note": "结构示例：栏目=跑鞋篇，章节/子标题/开篇字段严格照 references/outline-shoe-review.md。正文文案是占位示例，正式稿要写满约 2000 字。",
   "column": "跑鞋篇",
   "shoe": "示例跑鞋 Model X",
   "title": "跑鞋篇——示例跑鞋 Model X",
