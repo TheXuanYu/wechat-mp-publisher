@@ -1,6 +1,6 @@
 ---
 name: wechat-mp-publisher
-description: 'End-to-end WeChat Official Account article production: topic selection → domestic+overseas review data aggregation → Dewu secondary market pricing → fact-checking → 1:1 HTML layout cloning from historical articles → image insertion → draft saving to WeChat backend. Layout relies on extract_template.py to extract component blocks from historical articles for placeholder substitution, not manual CSS rules; every number with units must be registered in claims.json and pass fact_check.py verification. Use when users need to write/publish WeChat articles, especially sneaker/basketball shoe reviews with pricing content. / 端到端生产公众号图文：选题 → 全网测评数据搜集（国内+海外）→ 得物二级市场配色价格 → 事实核查 → 按本号历史排版 1:1 复刻 HTML → 配图 → 灌入公众号后台存草稿。排版靠 extract_template.py 把历史文章的组件整段抠出来做占位符替换，不靠人工描述、不靠 CSS 泛化；正文里每个带单位的数字都必须在 claims.json 登记并通过 fact_check.py。当用户要写/发公众号文章，尤其是跑鞋/球鞋测评+价格类内容时使用。'
+description: 'End-to-end WeChat Official Account article production: topic selection → domestic+overseas content research → Dewu secondary market pricing → fact-checking → 1:1 HTML layout cloning from historical articles → image insertion → draft saving to WeChat backend. Layout relies on extract_template.py to extract component blocks from historical articles for placeholder substitution, not manual CSS rules; every number with units must be registered in claims.json and pass fact_check.py verification. Use when users need to write/publish WeChat articles, especially sneaker/basketball-shoe articles with pricing content. / 端到端生产公众号图文：选题 → 全网产品资料搜集（国内+海外）→ 得物二级市场配色价格 → 事实核查 → 按本号历史排版 1:1 复刻 HTML → 配图 → 灌入公众号后台存草稿。排版靠 extract_template.py 把历史文章的组件整段抠出来做占位符替换，不靠人工描述、不靠 CSS 泛化；正文里每个带单位的数字都必须在 claims.json 登记并通过 fact_check.py。当用户要写/发公众号文章，尤其是跑鞋/球鞋+价格类内容时使用。'
 metadata:
   author: your-name
   display_name: 公众号图文生产 / WeChat Article Generator
@@ -136,7 +136,7 @@ python scripts/make_cover.py --shoe "Li-Ning Chitu 9 PRO" --side-view 01_side.pn
 python scripts/render_template.py --article article.json --template references/template_rdfz.json --outline references/outline_running.json --out article.html
 
 # Save to WeChat draft
-python scripts/mp_draft.py draft --html article.html --title "Running Shoe Review — Nike Pegasus 42" --author YourAccount --digest "Nike Pegasus 42 Review" --save --cover cover.png --album running --original --claim-source
+python scripts/mp_draft.py draft --html article.html --title "Running Shoes — Nike Pegasus 42" --author YourAccount --digest "Nike Pegasus 42 Overview" --save --cover cover.png --album running --original --claim-source
 ```
 
 ### Core Features

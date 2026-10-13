@@ -51,8 +51,8 @@ PROMPT = """请为公众号「RDFZ 步界社」写一篇 {column} 测评，鞋�
 
 严格遵守 skill `wechat-mp-publisher` 的全部规则，重点：
 
-1. 骨架照 {skill}/references/outline-shoe-review.md 的 {column}，章节号、章节名、子标题、
-   开篇 5 字段一字不差。跑鞋与篮球鞋的 02/03/04 子标题不同，不要混用。
+1. 骨架照 {skill}/references/outline_running.json（跑鞋）或 references/outline_basketball.json（篮球鞋），
+   章节号、章节名、子标题、开篇 5 字段一字不差。跑鞋与篮球鞋的 02/03/04 子标题不同，不要混用。
 2. 先搜数据：国内用 istarshine 全网搜，海外优先 RunRepeat（实验室实测）、品牌官网规格页。
    每个数值都要落进 claims.json，字段为 subject/metric/value/sources[{{url,title,quote,date}}]，
    quote 必须是含该数字的原文。单位换算成公制后写 value，quote 保留原文。

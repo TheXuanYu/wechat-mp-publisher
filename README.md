@@ -1,4 +1,4 @@
-# 公众号测评图文生产器 / WeChat Official Account Review Article Generator
+# 公众号图文生产器 / WeChat Official Account Article Generator
 
 [中文](#中文) | [English](#english)
 
@@ -6,7 +6,7 @@
 
 ## 中文
 
-给鞋类测评公众号用的本地工具：**从选题到草稿全自动**，排版 1:1 复刻你自己历史文章的版式，正文里每个带单位的数字都必须能追到来源原文。
+给鞋类内容公众号用的本地工具：**从选题到草稿全自动**，排版 1:1 复刻你自己历史文章的版式，正文里每个带单位的数字都必须能追到来源原文。
 
 macOS 原生 App（Swift + WKWebView 外壳 + Python 后端），五步向导：
 
@@ -75,7 +75,7 @@ references/
 
 ## English
 
-A local tool for sneaker review WeChat Official Accounts: **end-to-end automation from topic selection to draft**, with 1:1 layout cloning from your historical articles, and every number with units must be traceable to source citations.
+A local tool for sneaker-focused WeChat Official Accounts: **end-to-end automation from topic selection to draft**, with 1:1 layout cloning from your historical articles, and every number with units traceable to source citations.
 
 Native macOS App (Swift + WKWebView shell + Python backend), five-step wizard:
 
